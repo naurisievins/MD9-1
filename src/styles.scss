@@ -1,3 +1,72 @@
+@import "assets/reset.scss"; /* Import reset.css */
+
 body {
-  background-color: antiquewhite;
+  padding:50px 20px 50px 20px;
+  background-color:rgb(27, 30, 36);
+}
+
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  border-radius:5px;
+  background-color:rgb(47, 47, 49);
+}
+
+.container__row {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  padding:20px;
+  justify-content:center;
+  gap:20px;
+}
+
+.card {
+  max-width:500px;
+  min-width:400px;
+  width:30%;
+  min-height:200px;
+  border-radius:10px;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  overflow:hidden;
+}
+
+.card__content {
+  display:flex;
+  height:100%;
+}
+
+.card__img {
+  display:flex;
+  flex-wrap:wrap;
+  // background-image: url(https://rickandmortyapi.com/api/character/avatar/1.jpeg);
+  // background-repeat:no-repeat;
+  // background-position:center;
+  // background-size: cover;
+}
+
+.card__text {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  padding-left:10px;
+  row-gap:10px;
+}
+
+.card__name {
+  width:100%;
+}
+
+.card__status {
+  width:100%;
+}
+
+.card__species {
+  width:100%;
+}
+
+.card__origin {
+  width:100%;
 }
